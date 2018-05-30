@@ -3,7 +3,8 @@ package com.example.tannguyen.musicalapp;
 public class Playist {
     private String mTitle;
     private String mArtist;
-    private int mImageResourceId;
+    private int mImageResourceId = NO_IMAGE_PROVIDED;
+    private static final int NO_IMAGE_PROVIDED = -1;
 
     public Playist(String title, String artist) {
         mTitle = title;
@@ -26,5 +27,9 @@ public class Playist {
 
     public int getImageResourceId() {
         return mImageResourceId;
+    }
+
+    public boolean hasImage() {
+        return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 }

@@ -41,7 +41,15 @@ public class Playist_Adapter extends ArrayAdapter<Playist> {
 
         // Find the ImageView in the list_item.xml layout with the ID image.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
-        imageView.setImageResource(currentPlayist.getImageResourceId());
+        if (currentPlayist.hasImage()) {
+            // If an image is available, display the provided image based on the resource ID
+            imageView.setImageResource(currentPlayist.getImageResourceId());
+            // Make sure the view is visible
+            imageView.setVisibility(View.VISIBLE);
+        } else {
+            // Otherwise hide the ImageView (set visibility to GONE)
+            imageView.setImageResource(R.drawable.play_button);
+        }
         return listItemView;
     }
 }

@@ -15,15 +15,15 @@ public class Sleep_Playist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list);
 
-        Button goBack = findViewById(R.id.back);
+        Button back = findViewById(R.id.back);
         // Set a click listener on that View
-        goBack.setOnClickListener(new View.OnClickListener() {
+        back.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
-                Intent goBackIntent = new Intent(Sleep_Playist.this, MainActivity.class);
+                Intent backIntent = new Intent(Sleep_Playist.this, MainActivity.class);
                 // Start the new activity
-                startActivity(goBackIntent);
+                startActivity(backIntent);
             }
         });
 
