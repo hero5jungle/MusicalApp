@@ -35,43 +35,35 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button workout = findViewById(R.id.button7);
-
         // Set a click listener on that View
         workout.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
-
                 Intent workoutIntent = new Intent(MainActivity.this, Workout_Playist.class);
-
                 // Start the new activity
                 startActivity(workoutIntent);
             }
         });
 
         Button focus = findViewById(R.id.button8);
-
         // Set a click listener on that View
         focus.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
-
                 Intent focusIntent = new Intent(MainActivity.this, Focus_Playist.class);
-
                 // Start the new activity
                 startActivity(focusIntent);
             }
         });
 
         Button sleep = findViewById(R.id.button10);
-
         // Set a click listener on that View
         sleep.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
-
                 Intent sleepIntent = new Intent(MainActivity.this, Sleep_Playist.class);
                 // Start the new activity
                 startActivity(sleepIntent);

@@ -6,4 +6,7 @@
     <string name="workout">Workout</string>
     <string name="title">Title</string>
     <string name="artist">Artist</string>
+    <string name="play">play</string>
+    <string name="button">Button</string>
+    <string name="click_here_to_go_back">Click Here To Go Back</string>
 </resources>

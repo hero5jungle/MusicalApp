@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -27,17 +28,20 @@ public class Playist_Adapter extends ArrayAdapter<Playist> {
                     R.layout.activity_focus__playist, parent, false);
         }
 
-
+//        Get item position
         Playist currentPlayist = getItem(position);
 
+//        Set text to the tile id
         TextView title = (TextView) listItemView.findViewById(R.id.title);
-
         title.setText(currentPlayist.getTitle());
 
+//        Set text to the artist id
         TextView artist = (TextView) listItemView.findViewById(R.id.artist);
-
         artist.setText(currentPlayist.getArtist());
 
+        // Find the ImageView in the list_item.xml layout with the ID image.
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+        imageView.setImageResource(currentPlayist.getImageResourceId());
         return listItemView;
     }
 }
