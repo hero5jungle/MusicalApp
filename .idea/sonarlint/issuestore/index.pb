@@ -1,0 +1,23 @@
+
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+Y
+)app/src/main/res/layout/activity_main.xml,7\6\76b07e40f24cce093536731477540f12e7da3cb6
+t
+Dapp/src/main/java/com/example/tannguyen/musicalapp/MainActivity.java,8\9\898c3465e532bd997c1f4951b9fe7ea5fc236381
+c
+3app/src/main/res/layout/activity_sleep__playist.xml,8\1\812566daed6cd52970a59fc7beb2ae4fa03e7d99
+o
+?app/src/main/java/com/example/tannguyen/musicalapp/Playist.java,6\6\66854ebb248e35972221a1c54ab0d55630c54d0a
+w
+Gapp/src/main/java/com/example/tannguyen/musicalapp/Playist_Adapter.java,e\8\e8cc5092b9a70f71b81481ba5774c018f91cd233
+e
+5app/src/main/res/layout/activity_workout__playist.xml,0\a\0ad642686f561f7271c38e8d3e0fdaf57e792f02
+w
+Gapp/src/main/java/com/example/tannguyen/musicalapp/Workout_Playist.java,9\7\97f4700d369e7183c9c6962b466c034ef673ba31
+u
+Eapp/src/main/java/com/example/tannguyen/musicalapp/Focus_Playist.java,b\c\bc93f68d4fc73cc10162731216f6f129d23784e7
+P
+ app/src/main/res/layout/list.xml,d\1\d1510a6dc160994a568adffbb7eba62bcf7848c8
+c
+3app/src/main/res/layout/activity_focus__playist.xml,6\8\68b216fe655d24e78a00415c84c91788a17c6a24

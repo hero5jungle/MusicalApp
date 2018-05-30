@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Musical App</string>
+    <string name="focus">Focus</string>
+    <string name="chill">Chill</string>
+    <string name="sleep">Sleep</string>
+    <string name="workout">Workout</string>
+    <string name="title">Title</string>
+    <string name="artist">Artist</string>
+</resources>

@@ -1,0 +1,19 @@
+
+Lsquid:UselessImportCheck"Remove this duplicated import.(Ø½­äşÿÿÿÿ8”¡åóº,
+Fsquid:UselessImportCheck"Remove this duplicated import.(³ğ‹G8”¡åóº,
+Lsquid:UselessImportCheck"Remove this duplicated import.(°şÊóøÿÿÿÿ8”¡åóº,
+fsquid:UselessImportCheck"8Remove this unused import 'android.widget.ArrayAdapter'.( €ŠÑÿÿÿÿÿ8”¡åóº,
+Lsquid:UselessImportCheck"Remove this duplicated import.(„Ë‚ˆÿÿÿÿÿ8”¡åóº,
+bsquid:UselessImportCheck"4Remove this unused import 'android.widget.GridView'.(éĞÏ«ÿÿÿÿÿ8”¡åóº,
+]squid:UselessImportCheck"4Remove this unused import 'android.widget.ListView'.(Œ‰Ö×8”¡åóº,
+[squid:UselessImportCheck"-Remove this unused import 'org.w3c.dom.Text'.(¶Äè‹şÿÿÿÿ8”¡åóº,
+_squid:UselessImportCheck"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ8”¡åóº,
+Lsquid:UselessImportCheck"Remove this duplicated import.(°şÊóøÿÿÿÿ8”¡åóº,
+bsquid:UselessImportCheck"4Remove this unused import 'android.widget.TextView'.(„Ë‚ˆÿÿÿÿÿ8”¡åóº,
+ksquid:MaximumInheritanceDepth"=This class has 10 parents which is greater than 5 authorized.(²Ú±8”¡åóº,
+Lsquid:UselessImportCheck"Remove this duplicated import.(«Û®ûüÿÿÿÿ8”¡åóº,
+Lsquid:UselessImportCheck"Remove this duplicated import.(«Û®ûüÿÿÿÿ8”¡åóº,
+Ysquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8”¡åóº,
+Ysquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8”¡åóº,
+`squid:UselessImportCheck"7Remove this unused import 'android.widget.AdapterView'.(¶¾éæ8”¡åóº,
+Gsquid:UselessImportCheck"Remove this duplicated import.(÷‰îƒ8”¡åóº,
