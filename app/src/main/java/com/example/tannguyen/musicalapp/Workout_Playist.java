@@ -16,9 +16,9 @@ public class Workout_Playist extends AppCompatActivity {
 
 
         ArrayList<Playist> playists = new ArrayList<>();
-        playists.add(new Playist("a", "1"));
-        playists.add(new Playist("b", "2"));
-        playists.add(new Playist("c", "3"));
+        playists.add(new Playist("Thunderstruck", "AC/DC"));
+        playists.add(new Playist("Hustlin\'", "Rick Ross"));
+        playists.add(new Playist("X Gon' Give It to Ya", "DMX"));
 
         Playist_Adapter playistArrayAdapter = new Playist_Adapter(this, playists);
 

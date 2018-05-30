@@ -16,9 +16,9 @@ public class Sleep_Playist extends AppCompatActivity {
 
 
         ArrayList<Playist> playists = new ArrayList<>();
-        playists.add(new Playist("a", "1"));
-        playists.add(new Playist("b", "2"));
-        playists.add(new Playist("c", "3"));
+        playists.add(new Playist("Greensleeves", "David Nevue"));
+        playists.add(new Playist("A Whole New World", "Aladdin"));
+        playists.add(new Playist("Colors Of The Wind", "Pocahontas"));
 
         Playist_Adapter playistArrayAdapter = new Playist_Adapter(this, playists);
 

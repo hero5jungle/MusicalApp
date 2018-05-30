@@ -15,9 +15,9 @@ public class Focus_Playist extends AppCompatActivity {
 
 
         ArrayList<Playist> playists = new ArrayList<>();
-        playists.add(new Playist("a", "1"));
-        playists.add(new Playist("b", "2"));
-        playists.add(new Playist("c", "3"));
+        playists.add(new Playist("Moonlight Sonata", "Beethoven"));
+        playists.add(new Playist("Canon in D", "Johann Pachelbel "));
+        playists.add(new Playist("Clair De Lune", "Claude Debussy"));
 
         Playist_Adapter playistArrayAdapter = new Playist_Adapter(this, playists);
 
