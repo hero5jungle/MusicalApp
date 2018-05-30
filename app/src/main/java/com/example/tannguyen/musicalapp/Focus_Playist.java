@@ -11,7 +11,6 @@ public class Focus_Playist extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_focus__playist);
         setContentView(R.layout.list);
 
 
