@@ -7,9 +7,10 @@ public class Playlist {
     private int mAudioResourceId;
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
-    public Playlist(String title, String artist) {
+    public Playlist(String title, String artist, int audioResourceId) {
         mTitle = title;
         mArtist = artist;
+        mAudioResourceId = audioResourceId;
     }
 
     public Playlist(String title, String artist, int imageResourceId, int audioResourceId) {

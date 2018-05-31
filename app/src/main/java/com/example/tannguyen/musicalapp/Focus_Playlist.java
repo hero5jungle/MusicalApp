@@ -35,9 +35,9 @@ public class Focus_Playlist extends AppCompatActivity {
 
         //        Create a playlist arraylist
         ArrayList<Playlist> playlists = new ArrayList<>();
-        playlists.add(new Playlist("Moonlight Sonata", "Beethoven"));
-        playlists.add(new Playlist("Canon in D", "Johann Pachelbel "));
-        playlists.add(new Playlist("Clair De Lune", "Claude Debussy"));
+        playlists.add(new Playlist("Moonlight Sonata", "Beethoven", R.raw.moonlight_sonata));
+        playlists.add(new Playlist("Canon in D", "Johann Pachelbel", R.raw.canon_in_d));
+        playlists.add(new Playlist("Clair De Lune", "Claude Debussy", R.raw.clair_de_lune));
 
         //        Attach the arrayadapter and inflate the listview
         Playlist_Adapter playlistArrayAdapter = new Playlist_Adapter(this, playlists);

@@ -29,9 +29,9 @@ public class Sleep_Playlist extends AppCompatActivity {
 
 //        Create a playlist arraylist
         ArrayList<Playlist> playlists = new ArrayList<>();
-        playlists.add(new Playlist("Greensleeves", "David Nevue"));
-        playlists.add(new Playlist("A Whole New World", "Aladdin"));
-        playlists.add(new Playlist("Colors Of The Wind", "Pocahontas"));
+        playlists.add(new Playlist("Greensleeves", "David Nevue", R.raw.greensleeves));
+        playlists.add(new Playlist("A Whole New World", "Aladdin", R.raw.a_whole_new_world));
+        playlists.add(new Playlist("Colors Of The Wind", "Pocahontas", R.raw.colors_of_the_wind));
 
 //        Attach the arrayadapter and inflate the listview
         Playlist_Adapter playlistArrayAdapter = new Playlist_Adapter(this, playlists);

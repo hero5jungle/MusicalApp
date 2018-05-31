@@ -29,9 +29,9 @@ public class Workout_Playlist extends AppCompatActivity {
 
         //        Create a playlist arraylist
         ArrayList<Playlist> playlists = new ArrayList<>();
-        playlists.add(new Playlist("Thunderstruck", "AC/DC"));
-        playlists.add(new Playlist("Hustlin\'", "Rick Ross"));
-        playlists.add(new Playlist("X Gon' Give It to Ya", "DMX"));
+        playlists.add(new Playlist("Thunderstruck", "AC/DC", R.raw.thuderstruck));
+        playlists.add(new Playlist("Hustlin\'", "Rick Ross", R.raw.hutslin));
+        playlists.add(new Playlist("X Gon' Give It to Ya", "DMX", R.raw.x_goin_to_give_it));
 
         //        Attach the arrayadapter and inflate the listview
         Playlist_Adapter playlistArrayAdapter = new Playlist_Adapter(this, playlists);
