@@ -34,7 +34,7 @@ public class Focus_Playlist extends AppCompatActivity {
         });
 
         //        Create a playlist arraylist
-        ArrayList<Playlist> playlists = new ArrayList<>();
+        final ArrayList<Playlist> playlists = new ArrayList<>();
         playlists.add(new Playlist("Moonlight Sonata", "Beethoven", R.raw.moonlight_sonata));
         playlists.add(new Playlist("Canon in D", "Johann Pachelbel", R.raw.canon_in_d));
         playlists.add(new Playlist("Clair De Lune", "Claude Debussy", R.raw.clair_de_lune));
@@ -46,7 +46,8 @@ public class Focus_Playlist extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                mMediaPlayer = MediaPlayer.create(Focus_Playlist.this, R.raw.moonlight_sonata);
+                Playlist playlist = playlists.get(position);
+                mMediaPlayer = MediaPlayer.create(Focus_Playlist.this, playlist.getAudioResourceId());
                 mMediaPlayer.start();
             }
         });
