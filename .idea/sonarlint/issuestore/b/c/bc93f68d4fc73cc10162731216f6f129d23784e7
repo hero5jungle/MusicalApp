@@ -1,4 +1,4 @@
 
-Gsquid:S1905"+Remove this unnecessary cast to "ListView".(Ž»»‹8Éý¯’»,
-jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ò»ÿí8Éý¯’»,
-ksquid:MaximumInheritanceDepth"=This class has 10 parents which is greater than 5 authorized.(Ò»ÿí8Éý¯’»,
+Gsquid:S1905"+Remove this unnecessary cast to "ListView".(Ž»»‹8Ä—Œ›»,
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ò»ÿí8Ä—Œ›»,
+ksquid:MaximumInheritanceDepth"=This class has 10 parents which is greater than 5 authorized.(Ò»ÿí8Ä—Œ›»,

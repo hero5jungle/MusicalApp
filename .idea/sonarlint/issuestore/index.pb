@@ -23,3 +23,9 @@ c
 3app/src/main/res/layout/activity_focus__playist.xml,6\8\68b216fe655d24e78a00415c84c91788a17c6a24
 u
 Eapp/src/main/java/com/example/tannguyen/musicalapp/Sleep_Playist.java,4\5\45447adbe7e5e92179c60d8cb75e7face11be4b3
+S
+#app/src/main/res/values/strings.xml,d\2\d2281fbb3027de2722081a53408dd77628bf080e
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+R
+"app/src/main/res/values/styles.xml,f\7\f79cc2688e29fcbc286fda14ae07b27c9e83690f
