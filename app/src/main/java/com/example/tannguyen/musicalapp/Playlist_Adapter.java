@@ -10,9 +10,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class Playist_Adapter extends ArrayAdapter<Playlist> {
+public class Playlist_Adapter extends ArrayAdapter<Playlist> {
 
-    public Playist_Adapter(Context context, ArrayList<Playlist> playlists) {
+    public Playlist_Adapter(Context context, ArrayList<Playlist> playlists) {
         super(context, 0, playlists);
     }
 
@@ -22,25 +22,25 @@ public class Playist_Adapter extends ArrayAdapter<Playlist> {
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.activity_focus__playist, parent, false);
+                    R.layout.activity_focus__playlist, parent, false);
         }
 
 //        Get item position
-        Playlist currentPlayist = getItem(position);
+        Playlist currentplaylist = getItem(position);
 
 //        Set text to the tile id
         TextView title = (TextView) listItemView.findViewById(R.id.title);
-        title.setText(currentPlayist.getTitle());
+        title.setText(currentplaylist.getTitle());
 
 //        Set text to the artist id
         TextView artist = (TextView) listItemView.findViewById(R.id.artist);
-        artist.setText(currentPlayist.getArtist());
+        artist.setText(currentplaylist.getArtist());
 
         // Find the ImageView in the list_item.xml layout with the ID image.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
-        if (currentPlayist.hasImage()) {
+        if (currentplaylist.hasImage()) {
             // If an image is available, display the provided image based on the resource ID
-            imageView.setImageResource(currentPlayist.getImageResourceId());
+            imageView.setImageResource(currentplaylist.getImageResourceId());
             // Make sure the view is visible
             imageView.setVisibility(View.VISIBLE);
         } else {

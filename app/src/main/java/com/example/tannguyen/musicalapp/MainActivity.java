@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
-                Intent workoutIntent = new Intent(MainActivity.this, Workout_Playist.class);
+                Intent workoutIntent = new Intent(MainActivity.this, Workout_Playlist.class);
                 // Start the new activity
                 startActivity(workoutIntent);
             }
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
-                Intent sleepIntent = new Intent(MainActivity.this, Sleep_Playist.class);
+                Intent sleepIntent = new Intent(MainActivity.this, Sleep_Playlist.class);
                 // Start the new activity
                 startActivity(sleepIntent);
             }

@@ -17,13 +17,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Workout_Playist"
+            android:name=".Workout_Playlist"
             android:label="Workout Playists" />
         <activity
             android:name=".Focus_Playlist"
             android:label="Focus Playist" />
         <activity
-            android:name=".Sleep_Playist"
+            android:name=".Sleep_Playlist"
             android:label="Sleep Playist" />
     </application>
 

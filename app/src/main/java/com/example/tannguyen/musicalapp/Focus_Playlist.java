@@ -1,7 +1,6 @@
 package com.example.tannguyen.musicalapp;
 
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -28,15 +27,15 @@ public class Focus_Playlist extends AppCompatActivity {
             }
         });
 
-        //        Create a playist arraylist
+        //        Create a playlist arraylist
         ArrayList<Playlist> playlists = new ArrayList<>();
         playlists.add(new Playlist("Moonlight Sonata", "Beethoven"));
         playlists.add(new Playlist("Canon in D", "Johann Pachelbel "));
         playlists.add(new Playlist("Clair De Lune", "Claude Debussy"));
 
         //        Attach the arrayadapter and inflate the listview
-        Playist_Adapter playistArrayAdapter = new Playist_Adapter(this, playlists);
+        Playlist_Adapter playlistArrayAdapter = new Playlist_Adapter(this, playlists);
         ListView listView = (ListView) findViewById(R.id.list);
-        listView.setAdapter(playistArrayAdapter);
+        listView.setAdapter(playlistArrayAdapter);
     }
 }
