@@ -46,19 +46,6 @@ public class Workout_Playlist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list);
 
-        Button back = findViewById(R.id.back);
-        // Set a click listener on that View
-        back.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers category is clicked on.
-            @Override
-            public void onClick(View view) {
-                Intent backIntent = new Intent(Workout_Playlist.this, MainActivity.class);
-                // Start the new activity
-                releaseMediaPlayer();
-                startActivity(backIntent);
-            }
-        });
-
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 
         //        Create a playlist arraylist
