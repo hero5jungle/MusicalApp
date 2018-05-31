@@ -18,13 +18,13 @@
         </activity>
         <activity
             android:name=".Workout_Playlist"
-            android:label="Workout Playists" />
+            android:label="Workout Playlist" />
         <activity
             android:name=".Focus_Playlist"
-            android:label="Focus Playist" />
+            android:label="Focus Playlist" />
         <activity
             android:name=".Sleep_Playlist"
-            android:label="Sleep Playist" />
+            android:label="Sleep Playlist" />
     </application>
 
 </manifest>
