@@ -1,9 +1,6 @@
 package com.example.tannguyen.musicalapp;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,10 +10,10 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class Playist_Adapter extends ArrayAdapter<Playist> {
+public class Playist_Adapter extends ArrayAdapter<Playlist> {
 
-    public Playist_Adapter(Context context, ArrayList<Playist> playists) {
-        super(context, 0, playists);
+    public Playist_Adapter(Context context, ArrayList<Playlist> playlists) {
+        super(context, 0, playlists);
     }
 
     @Override
@@ -29,7 +26,7 @@ public class Playist_Adapter extends ArrayAdapter<Playist> {
         }
 
 //        Get item position
-        Playist currentPlayist = getItem(position);
+        Playlist currentPlayist = getItem(position);
 
 //        Set text to the tile id
         TextView title = (TextView) listItemView.findViewById(R.id.title);

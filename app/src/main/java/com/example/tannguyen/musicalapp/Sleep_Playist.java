@@ -28,13 +28,13 @@ public class Sleep_Playist extends AppCompatActivity {
         });
 
 //        Create a playist arraylist
-        ArrayList<Playist> playists = new ArrayList<>();
-        playists.add(new Playist("Greensleeves", "David Nevue"));
-        playists.add(new Playist("A Whole New World", "Aladdin"));
-        playists.add(new Playist("Colors Of The Wind", "Pocahontas"));
+        ArrayList<Playlist> playlists = new ArrayList<>();
+        playlists.add(new Playlist("Greensleeves", "David Nevue"));
+        playlists.add(new Playlist("A Whole New World", "Aladdin"));
+        playlists.add(new Playlist("Colors Of The Wind", "Pocahontas"));
 
 //        Attach the arrayadapter and inflate the listview
-        Playist_Adapter playistArrayAdapter = new Playist_Adapter(this, playists);
+        Playist_Adapter playistArrayAdapter = new Playist_Adapter(this, playlists);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(playistArrayAdapter);
     }

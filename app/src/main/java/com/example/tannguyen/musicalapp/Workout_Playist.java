@@ -28,13 +28,13 @@ public class Workout_Playist extends AppCompatActivity {
         });
 
         //        Create a playist arraylist
-        ArrayList<Playist> playists = new ArrayList<>();
-        playists.add(new Playist("Thunderstruck", "AC/DC"));
-        playists.add(new Playist("Hustlin\'", "Rick Ross"));
-        playists.add(new Playist("X Gon' Give It to Ya", "DMX"));
+        ArrayList<Playlist> playlists = new ArrayList<>();
+        playlists.add(new Playlist("Thunderstruck", "AC/DC"));
+        playlists.add(new Playlist("Hustlin\'", "Rick Ross"));
+        playlists.add(new Playlist("X Gon' Give It to Ya", "DMX"));
 
         //        Attach the arrayadapter and inflate the listview
-        Playist_Adapter playistArrayAdapter = new Playist_Adapter(this, playists);
+        Playist_Adapter playistArrayAdapter = new Playist_Adapter(this, playlists);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(playistArrayAdapter);
     }
