@@ -14,6 +14,12 @@ import java.util.ArrayList;
 public class Workout_Playlist extends AppCompatActivity {
 
     private MediaPlayer mMediaPlayer;
+    private MediaPlayer.OnCompletionListener mCompletionListener = new MediaPlayer.OnCompletionListener() {
+        @Override
+        public void onCompletion(MediaPlayer mp) {
+            releaseMediaPlayer();
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +34,7 @@ public class Workout_Playlist extends AppCompatActivity {
             public void onClick(View view) {
                 Intent backIntent = new Intent(Workout_Playlist.this, MainActivity.class);
                 // Start the new activity
+                releaseMediaPlayer();
                 startActivity(backIntent);
             }
         });
@@ -46,9 +53,18 @@ public class Workout_Playlist extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Playlist playlist = playlists.get(position);
+                releaseMediaPlayer();
                 mMediaPlayer = MediaPlayer.create(Workout_Playlist.this, playlist.getAudioResourceId());
                 mMediaPlayer.start();
+                mMediaPlayer.setOnCompletionListener(mCompletionListener);
             }
         });
+    }
+
+    private void releaseMediaPlayer() {
+        if (mMediaPlayer != null) {
+            mMediaPlayer.release();
+            mMediaPlayer = null;
+        }
     }
 }

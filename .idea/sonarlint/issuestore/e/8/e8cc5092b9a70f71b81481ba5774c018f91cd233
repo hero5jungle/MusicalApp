@@ -1,9 +1,0 @@
-
-Hsquid:S1905'"+Remove this unnecessary cast to "TextView".(º	8Ä—Œ›»,
-lsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‰–8Ä—Œ›»,
-–squid:S1319"sThe type of the "playists" object should be an interface such as "List" rather than the implementation "ArrayList".(©šĞôúÿÿÿÿ8Ä—Œ›»,
-psquid:UselessImportCheck"@Remove this unused import 'android.support.annotation.Nullable'.(Ö‹øïüÿÿÿÿ8Ä—Œ›»,
-isquid:UselessImportCheck"?Remove this unused import 'android.support.annotation.NonNull'.(¼Åß8Ä—Œ›»,
-Jsquid:S1905+",Remove this unnecessary cast to "ImageView".(–æİ¬8Ä—Œ›»,
-psquid:UselessImportCheck"ERemove this unused import 'android.support.v4.content.ContextCompat'.(¹†Ç8Ä—Œ›»,
-Isquid:S1905#"+Remove this unnecessary cast to "TextView".(ã¢Â¦8Ä—Œ›»,
