@@ -26,21 +26,21 @@ public class Playlist_Adapter extends ArrayAdapter<Playlist> {
         }
 
 //        Get item position
-        Playlist currentplaylist = getItem(position);
+        Playlist currentPlayist = getItem(position);
 
 //        Set text to the tile id
         TextView title = (TextView) listItemView.findViewById(R.id.title);
-        title.setText(currentplaylist.getTitle());
+        title.setText(currentPlayist.getTitle());
 
 //        Set text to the artist id
         TextView artist = (TextView) listItemView.findViewById(R.id.artist);
-        artist.setText(currentplaylist.getArtist());
+        artist.setText(currentPlayist.getArtist());
 
         // Find the ImageView in the list_item.xml layout with the ID image.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
-        if (currentplaylist.hasImage()) {
+        if (currentPlayist.hasImage()) {
             // If an image is available, display the provided image based on the resource ID
-            imageView.setImageResource(currentplaylist.getImageResourceId());
+            imageView.setImageResource(currentPlayist.getImageResourceId());
             // Make sure the view is visible
             imageView.setVisibility(View.VISIBLE);
         } else {
